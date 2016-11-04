@@ -1,0 +1,194 @@
+﻿// Import boostrap variables including default color palette and fonts
+@import "bootstrap/variables.less";
+@import "EandisBootstrapVariables.less";
+@import "bootstrap/mixins.less";
+@import "EandisVariables.less";
+
+@import "header/_Tabs.less";
+@import "header/_Header.less";
+
+body {
+    padding-top: 0;
+}
+
+.btn-primary {
+    background-color: @standaard2;
+    border-color: @standaard2;
+    .box-shadow(inset 0 -2px 0 0 @standaard1);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .active.btn-primary, .open > .btn-primary.dropdown-toggle {
+    background-color: @standaard2;
+    border-color: @standaard2;
+    .box-shadow(inset 0 2px 0 0 @standaard1);
+}
+
+.btn-primary.disabled, .btn-primary[disabled], 
+fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, .btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, 
+.btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, .btn-primary[disabled].active, 
+fieldset[disabled] .btn-primary.active {
+    background-color: @standaard2;
+    border-color: @standaard2;
+    .opacity(.65);
+    .box-shadow(none);
+}
+
+//start standaard context
+.eandisWebsite-standaardKnop {
+    background-color: @standaard2;
+    border-color: @standaard2;
+    .box-shadow(inset 0 -2px 0 0 @standaard1);
+}
+
+.eandisWebsite-standaardKnop:hover, .eandisWebsite-standaardKnop:focus, 
+.eandisWebsite-standaardKnop:active, .active.eandisWebsite-standaardKnop, 
+.open > .eandisWebsite-standaardKnop.dropdown-toggle {
+    background-color: @standaard2;
+    border-color: @standaard2;
+    .box-shadow(inset 0 2px 0 0 @standaard1);
+}
+
+.eandisWebsite-standaardKnop.disabled, .eandisWebsite-standaardKnop[disabled], 
+fieldset[disabled] .eandisWebsite-standaardKnop, .eandisWebsite-standaardKnop.disabled:hover, 
+.eandisWebsite-standaardKnop[disabled]:hover, fieldset[disabled] .eandisWebsite-standaardKnop:hover, 
+.eandisWebsite-standaardKnop.disabled:focus, .eandisWebsite-standaardKnop[disabled]:focus, 
+fieldset[disabled] .eandisWebsite-standaardKnop:focus, .btn-primary.disabled:active, 
+.eandisWebsite-standaardKnop[disabled]:active, fieldset[disabled] .eandisWebsite-standaardKnop:active, 
+.eandisWebsite-standaardKnop.disabled.active, .eandisWebsite-standaardKnop[disabled].active, 
+fieldset[disabled] .eandisWebsite-standaardKnop.active {
+    background-color: @standaard2;
+    border-color: @standaard2;
+    .opacity(.65);
+    .box-shadow(none);
+}
+
+.eandisWebsite-standaardHeader {
+    border-bottom: @eandisWebsiteHeaderHeight solid @standaard3 !important;
+}
+
+.eandisWebsite-standaardHoofding, h1, h2, h3, h4, h5, h6
+{
+    color: @standaard3;
+}
+//einde standaard context
+
+//start meteropname context
+.eandisWebsite-meteropnameKnop {
+    background-color: @meteropname1;
+    border-color: @meteropname1;
+    .box-shadow(inset 0 -2px 0 0 @meteropname2);
+}
+
+.eandisWebsite-meteropnameKnop:hover, .eandisWebsite-meteropnameKnop:focus, 
+.eandisWebsite-meteropnameKnop:active, .active.eandisWebsite-meteropnameKnop, 
+.open > .eandisWebsite-meteropnameKnop.dropdown-toggle {
+    background-color: @meteropname1;
+    border-color: @meteropname1;
+    .box-shadow(inset 0 2px 0 0 @meteropname2);
+}
+
+.eandisWebsite-meteropnameKnop.disabled, .eandisWebsite-meteropnameKnop[disabled], 
+fieldset[disabled] .eandisWebsite-meteropnameKnop, .eandisWebsite-meteropnameKnop.disabled:hover, 
+.eandisWebsite-meteropnameKnop[disabled]:hover, fieldset[disabled] .eandisWebsite-meteropnameKnop:hover, 
+.eandisWebsite-meteropnameKnop.disabled:focus, .eandisWebsite-meteropnameKnop[disabled]:focus, 
+fieldset[disabled] .eandisWebsite-meteropnameKnop:focus, .btn-primary.disabled:active, 
+.eandisWebsite-meteropnameKnop[disabled]:active, fieldset[disabled] .eandisWebsite-meteropnameKnop:active, 
+.eandisWebsite-meteropnameKnop.disabled.active, .eandisWebsite-meteropnameKnop[disabled].active, 
+fieldset[disabled] .eandisWebsite-meteropnameKnop.active {
+    background-color: @meteropname1;
+    border-color: @meteropname1;
+    .opacity(.65);
+    .box-shadow(none);
+}
+
+.eandisWebsite-meteropnameHeader {
+    border-bottom: @eandisWebsiteHeaderHeight solid @meteropname1 !important;
+}
+
+.eandisWebsite-meteropnameHoofding
+{
+    color: @meteropname1;
+}
+//einde meteropname context
+
+//start aansluiting context
+.eandisWebsite-aansluitingKnop {
+    background-color: @aansluitingen1;
+    border-color: @aansluitingen1;
+    .box-shadow(inset 0 -2px 0 0 @aansluitingen2);
+}
+
+.eandisWebsite-aansluitingKnop:hover, .eandisWebsite-aansluitingKnop:focus, 
+.eandisWebsite-aansluitingKnop:active, .active.eandisWebsite-aansluitingKnop, 
+.open > .eandisWebsite-aansluitingKnop.dropdown-toggle {
+    background-color: @aansluitingen1;
+    border-color: @aansluitingen1;
+    .box-shadow(inset 0 2px 0 0 @aansluitingen2);
+}
+
+.eandisWebsite-aansluitingKnop.disabled, .eandisWebsite-aansluitingKnop[disabled], 
+fieldset[disabled] .eandisWebsite-aansluitingKnop, .eandisWebsite-aansluitingKnop.disabled:hover, 
+.eandisWebsite-aansluitingKnop[disabled]:hover, fieldset[disabled] .eandisWebsite-aansluitingKnop:hover, 
+.eandisWebsite-aansluitingKnop.disabled:focus, .eandisWebsite-aansluitingKnop[disabled]:focus, 
+fieldset[disabled] .eandisWebsite-aansluitingKnop:focus, .btn-primary.disabled:active, 
+.eandisWebsite-aansluitingKnop[disabled]:active, fieldset[disabled] .eandisWebsite-aansluitingKnop:active, 
+.eandisWebsite-aansluitingKnop.disabled.active, .eandisWebsite-aansluitingKnop[disabled].active, 
+fieldset[disabled] .eandisWebsite-aansluitingKnop.active {
+    background-color: @aansluitingen1;
+    border-color: @aansluitingen1;
+    .opacity(.65);
+    .box-shadow(none);
+}
+
+.eandisWebsite-aansluitingHeader {
+    border-bottom: @eandisWebsiteHeaderHeight solid @aansluitingen1 !important;
+}
+
+.eandisWebsite-aansluitingHoofding
+{
+    color: @aansluitingen1;
+}
+//einde aansluiting context
+
+//start energiebesparen context
+.eandisWebsite-energieBesparenKnop {
+    background-color: @energieBesparen1;
+    border-color: @energieBesparen1;
+    .box-shadow(inset 0 -2px 0 0 @energieBesparen2);
+}
+
+.eandisWebsite-energieBesparenKnop:hover, .eandisWebsite-energieBesparenKnop:focus, 
+.eandisWebsite-energieBesparenKnop:active, .active.eandisWebsite-energieBesparenKnop, 
+.open > .eandisWebsite-energieBesparenKnop.dropdown-toggle {
+    background-color: @energieBesparen1;
+    border-color: @energieBesparen1;
+    .box-shadow(inset 0 2px 0 0 @energieBesparen2);
+}
+
+.eandisWebsite-energieBesparenKnop.disabled, .eandisWebsite-energieBesparenKnop[disabled], 
+fieldset[disabled] .eandisWebsite-energieBesparenKnop, .eandisWebsite-energieBesparenKnop.disabled:hover, 
+.eandisWebsite-energieBesparenKnop[disabled]:hover, fieldset[disabled] .eandisWebsite-energieBesparenKnop:hover, 
+.eandisWebsite-energieBesparenKnop.disabled:focus, .eandisWebsite-energieBesparenKnop[disabled]:focus, 
+fieldset[disabled] .eandisWebsite-energieBesparenKnop:focus, .btn-primary.disabled:active, 
+.eandisWebsite-energieBesparenKnop[disabled]:active, fieldset[disabled] .eandisWebsite-energieBesparenKnop:active, 
+.eandisWebsite-energieBesparenKnop.disabled.active, .eandisWebsite-energieBesparenKnop[disabled].active, 
+fieldset[disabled] .eandisWebsite-energieBesparenKnop.active {
+    background-color: @energieBesparen1;
+    border-color: @energieBesparen1;
+    .opacity(.65);
+    .box-shadow(none);
+}
+
+.eandisWebsite-energieBesparenHeader {
+    border-bottom: @eandisWebsiteHeaderHeight solid @energieBesparen1 !important;
+}
+
+.eandisWebsite-energieBesparenHoofding
+{
+    color: @energieBesparen1;
+}
+//einde energiebesparen context

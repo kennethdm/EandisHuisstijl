@@ -1,0 +1,19 @@
+﻿{
+    "processing": "En cours...",
+    "lengthMenu": "Afficher _MENU_ résultats",
+    "zeroRecords": "Aucun résultat trouvé",
+    "info": "_START_ à _END_ sur _TOTAL_ résultats",
+    "infoEmpty": "Aucun résultat à afficher",
+    "infoFiltered": " (filtré parmi _MAX_ résultats)",
+    "infoPostFix": "",
+    "search": "Rechercher:",
+    "emptyTable": "Aucun résultat dans le tableau",
+    "thousands": ".",
+    "loadingRecords": "Un instant svp – les données sont en cours de chargement",
+    "paginate": {
+        "first": "Premier",
+        "last": "Dernier",
+        "next": "Suivant",
+        "previous": "Précédent"
+    }
+}

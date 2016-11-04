@@ -1,0 +1,19 @@
+﻿{
+    "processing": "Busy...",
+    "lengthMenu": "Show _MENU_ results",
+    "zeroRecords": "No results found",
+    "info": "_START_ to _END_ of _TOTAL_ results",
+    "infoEmpty": "No results to show",
+    "infoFiltered": " (filtered from _MAX_ results)",
+    "infoPostFix": "",
+    "search": "Search:",
+    "emptyTable": "No results in the table",
+    "thousands": ".",
+    "loadingRecords": "Please wait – we are loading the data",
+    "paginate": {
+        "first": "First",
+        "last": "Last",
+        "next": "Next",
+        "previous": "Previous"
+    }
+}

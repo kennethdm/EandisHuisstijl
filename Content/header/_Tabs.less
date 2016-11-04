@@ -1,0 +1,27 @@
+﻿.nav-tabs{margin-top: 20px;}
+.tab-content{
+	.dl-horizontal dt{margin: 0; .make-sm-column(4); margin-bottom: 10px}
+	.dl-horizontal dd{margin: 0; .make-sm-column(8);margin-bottom: 10px}
+}
+// MediaQueries
+// ------------------------------------------------
+// MIN = GROTER DAN...
+// MAX = KLEINER DAN...
+// ------------------------------------------------
+@media (max-width: @screen-xs-max) {  }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {  }
+@media (max-width: @screen-sm-max) {
+	.responsive, .panel-group.responsive{
+		> .panel{box-shadow: none;}
+		> .panel-group .panel{border-radius: 0;}
+		> .panel-default{margin-bottom:4px; border: transparent; border-radius: 0;}
+		> .panel-default > .panel-heading{background: @aansluitingen3; border-radius: 0; border-left: 5px solid @aansluitingen1; border-right: transparent; }
+		> .panel-default > .panel-heading + .panel-collapse > .panel-body{border: none; border-left: 5px solid @aansluitingen1; border-right: 1px solid @aansluitingen3; border-bottom: 1px solid @aansluitingen3;}
+		> .panel-group .panel + .panel{margin-top: 0px; border-radius: 0;}
+		> .panel-default > .panel-heading .accordion-toggle{display: block; color: @aansluitingen1;
+			&:hover, &:active, &:focus{text-decoration: none;  color:@aansluitingen2!important; }
+		}
+	}
+
+}
+@media (min-width: @screen-lg-min) { }

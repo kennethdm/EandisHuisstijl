@@ -1,0 +1,32 @@
+﻿// Import boostrap variables including default color palette and fonts
+@import "bootstrap/variables.less";
+@import "bootstrap/mixins.less";
+@import "EandisVariables.less";
+
+.apps_header {
+    border-bottom: @eandisWebsiteHeaderHeight solid @meteropname1;
+}
+
+.btn-primary {
+    background-color: @meteropname1;
+    border-color: @meteropname1;
+    .box-shadow(inset 0 -2px 0 0 @meteropname2);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .active.btn-primary, .open > .btn-primary.dropdown-toggle {
+    background-color: @meteropname1;
+    border-color: @meteropname1;
+    .box-shadow(inset 0 2px 0 0 @meteropname2);
+}
+
+.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
+    background-color: @meteropname1;
+    border-color: @meteropname1;
+    .opacity(.65);
+    .box-shadow(none);
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: @meteropname1;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "EandisHuisstijl",
+  "description": "Eandis huisstijl voor web GUI ontwikkelingen",
+  "main": "",
+  "keywords": [
+    "Eandis",
+    "Huisstijl"
+  ],
+  "authors": [
+    "Kenneth De Meyer"
+  ],
+  "license": "MIT",
+  "homepage": "huisstijl.eandis.be",
+  "private": true
+}
